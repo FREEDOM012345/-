@@ -1,6 +1,6 @@
-# SliderVR - Selenium Slider Captcha Solver
+# SliderVB - Selenium Slider Captcha Solver
 
-`SliderVR` is a Python utility class designed to automate the solving of slider captchas using Selenium and OpenCV. It calculates the gap position in the slider image and simulates human-like mouse movements to drag the slider to the correct position.
+`SliderVB` is a Python utility class designed to automate the solving of slider captchas using Selenium and OpenCV. It calculates the gap position in the slider image and simulates human-like mouse movements to drag the slider to the correct position.
 
 ## Features
 
@@ -54,7 +54,7 @@ try:
     slider_element = driver.find_element(By.CSS_SELECTOR, ".slider-btn")
 
     # Initialize the solver
-    solver = SliderVR(driver, bg_element, slider_element)
+    solver = SliderVB(driver, bg_element, slider_element)
 
     # Start the verification process
     solver.slider_ver()

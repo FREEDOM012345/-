@@ -4,7 +4,7 @@ import cv2
 
 from selenium.webdriver.common.action_chains import ActionChains
 
-class SliderVR:
+class SliderVB:
     def __init__(self, driver, bg_element, slider_element):
         self.driver = driver
         self.bg_element = bg_element
